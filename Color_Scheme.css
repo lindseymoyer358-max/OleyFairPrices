@@ -1,6 +1,6 @@
 body {
     background-color: #c3c3cb;
-    color: rgb(200, 8, 196);
+    color: rgb(36, 8, 196);
 
 }
 h1 {
@@ -11,7 +11,7 @@ h1 {
 
 p {
     color: rgb(238, 10, 10);
-    text-align: center;
+    text-align: left;
     font-size: 20px;
 }
 
