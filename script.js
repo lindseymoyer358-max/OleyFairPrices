@@ -34,6 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const Nachos = urlParams.get('Nachos');
         const small_milkeshake = urlParams.get('small_milkeshake');
         const Large_milkeshake = urlParams.get('Large_milkeshake');
+        const Special_milkeshake = urlParams.get('Special_milkeshake');
         const Shoo_fly_Pie_Piece = urlParams.get('Shoo-fly_Pie_Piece');
         const Shoo_fly_Pie_Whole = urlParams.get('Shoo-fly_Pie_Whole');
         const Fruit_Pie_Piece = urlParams.get('Fruit_Pie_Piece');
@@ -75,6 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const displayNachos = document.getElementById('Nachos');
         const displaysmall_milkeshake = document.getElementById('small_milkeshake');
         const displayLarge_milkeshake = document.getElementById('Large_milkeshake');
+        const displaySpecial_milkeshake = document.getElementById('Special_milkeshake');
         const displayShoo_fly_Pie_Piece = document.getElementById('Shoo-fly_Pie_Piece');
         const displayShoo_fly_Pie_Whole = document.getElementById('Shoo-fly_Pie_Whole');
         const displayFruit_Pie_Piece = document.getElementById('Fruit_Pie_Piece');
@@ -86,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (displaysmall_fry && displayLarge_fry && displayHamburger && displayHamburger_cheese 
             && displayHot_Dog && displayHot_Dog_Kraut && displayPork_Bar_B_Que && displaySoup &&
-            displayItalian_Sandwich && displaysmall_milkeshake && displayLarge_milkeshake && 
+            displayItalian_Sandwich && displaysmall_milkeshake && displayLarge_milkeshake && displaySpecial_milkeshake && 
             displayCold_Drinks && displayMilk && displayHot_Drinks_Small && displayHot_Drinks_Large && 
             displaySno_Cone && displayFruit_Tray_Small && displayFruit_Tray_Large && displayFunnel_Cake && 
             displayCotton_Candy && displayCaramel_Apple && displaySoft_Pretzel && displaySoft_Pretzel_Cheese && 
@@ -125,6 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
             displayNachos.textContent = Nachos || 0;
             displaysmall_milkeshake.textContent = small_milkeshake || 0;
             displayLarge_milkeshake.textContent = Large_milkeshake || 0;
+            displaySpecial_milkeshake.textContent = Special_milkeshake || 0;
             displayShoo_fly_Pie_Piece.textContent = Shoo_fly_Pie_Piece || 0;
             displayShoo_fly_Pie_Whole.textContent = Shoo_fly_Pie_Whole || 0;
             displayFruit_Pie_Piece.textContent = Fruit_Pie_Piece || 0;
@@ -155,7 +158,7 @@ document.addEventListener('DOMContentLoaded', () => {
         +(parseFloat(Funnel_Cake) * 5.00 || 0) + (parseFloat(Cotton_Candy) * 4.00 || 0) 
         +(parseFloat(Caramel_Apple) * 4.00 || 0) + (parseFloat(Soft_Pretzel) * 2.50 || 0)
         +(parseFloat(Soft_Pretzel_Cheese) * 2.75 || 0) + (parseFloat(Nachos) * 4.00 || 0)
-        +(parseFloat(small_milkeshake) * 3.00 || 0) + (parseFloat(Large_milkeshake) * 4.50 || 0)
+        +(parseFloat(small_milkeshake) * 3.00 || 0) + (parseFloat(Large_milkeshake) * 4.50 || 0) + (parseFloat(Special_milkeshake) * 6.50 || 0)
         +(parseFloat(Shoo_fly_Pie_Piece) * 1.50 || 0) + (parseFloat(Shoo_fly_Pie_Whole) * 6.00 || 0)
         +(parseFloat(Fruit_Pie_Piece) * 2.00 || 0) + (parseFloat(Fruit_Pie_Whole) * 9.00 || 0)
         +(parseFloat(Sticky_Buns_Single) * 3.50 || 0) + (parseFloat(Sticky_Buns_Nuts_Single) * 4.00 || 0)
