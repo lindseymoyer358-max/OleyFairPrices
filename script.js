@@ -147,22 +147,22 @@ document.addEventListener('DOMContentLoaded', () => {
         (parseFloat(Italian_Sandwich) * 6.00 || 0) 
 
         //Drinks
-        +(parseFloat(Cold_Drinks) * 2.25 || 0) + (parseFloat(Milk) * 1.75 || 0) + 
+        +(parseFloat(Cold_Drinks) * 2.50 || 0) + (parseFloat(Milk) * 2.00 || 0) + 
         (parseFloat(Hot_Drinks_Small) * 1.00 || 0) + (parseFloat(Hot_Drinks_Large) * 2.00 || 0)
 
         //Frozen Treats
         +(parseFloat(Sno_Cone) * 2.50 || 0) 
 
         //Snacks
-        +(parseFloat(Fruit_Tray_Small) * 3.50 || 0) + (parseFloat(Fruit_Tray_Large) * 6.00 || 0)
-        +(parseFloat(Funnel_Cake) * 5.00 || 0) + (parseFloat(Cotton_Candy) * 4.00 || 0) 
+        +(parseFloat(Fruit_Tray_Small) * 4.00 || 0) + (parseFloat(Fruit_Tray_Large) * 6.50 || 0)
+        +(parseFloat(Funnel_Cake) * 5.50 || 0) + (parseFloat(Cotton_Candy) * 4.00 || 0) 
         +(parseFloat(Caramel_Apple) * 4.00 || 0) + (parseFloat(Soft_Pretzel) * 2.50 || 0)
         +(parseFloat(Soft_Pretzel_Cheese) * 2.75 || 0) + (parseFloat(Nachos) * 4.00 || 0)
         +(parseFloat(small_milkeshake) * 3.00 || 0) + (parseFloat(Large_milkeshake) * 4.50 || 0) + (parseFloat(Special_milkeshake) * 6.50 || 0)
-        +(parseFloat(Shoo_fly_Pie_Piece) * 1.50 || 0) + (parseFloat(Shoo_fly_Pie_Whole) * 6.00 || 0)
-        +(parseFloat(Fruit_Pie_Piece) * 2.00 || 0) + (parseFloat(Fruit_Pie_Whole) * 9.00 || 0)
+        +(parseFloat(Shoo_fly_Pie_Piece) * 2.00 || 0) + (parseFloat(Shoo_fly_Pie_Whole) * 7.00 || 0)
+        +(parseFloat(Fruit_Pie_Piece) * 2.00 || 0) + (parseFloat(Fruit_Pie_Whole) * 10.00 || 0)
         +(parseFloat(Sticky_Buns_Single) * 3.50 || 0) + (parseFloat(Sticky_Buns_Nuts_Single) * 4.00 || 0)
-        +(parseFloat(Sticky_Buns_Pack) * 7.00 || 0) + (parseFloat(Sticky_Buns_Nuts_Pack) * 7.50 || 0); 
+        +(parseFloat(Sticky_Buns_Pack) * 8.00 || 0) + (parseFloat(Sticky_Buns_Nuts_Pack) * 9.00 || 0); 
         const totalElement = document.getElementById('total_price');  
         if (totalElement) {
             let total_string = total.toFixed(2)
